@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서 - 이영범</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>이영범</h1>
+            <p>연락처: 010-2677-6131</p>
+            <p>이메일: yblee94@outlook.com</p>
+            <p>한줄 소개: <span class="intro">클라우드 네이티브 엔지니어에서 <strong><em>클라우드 비즈니스 전문가</em></strong>까지</span></p>
+        </header>
+        <hr>
+        <main>
+            <section id="education">
+                <h2>학력</h2>
+                <div class="item">
+                    <span class="period">2019년 2월</span>
+                    <div class="details">
+                        <h3>경기대학교</h3>
+                        <p>전공: 산업경영공학과</p>
+                        <p>학점: 3.47/4.5</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="experience">
+                <h2>경력</h2>
+                <div class="item">
+                    <span class="period">2024. 08 ~ 현재</span>
+                    <div class="details">
+                        <h3>(주) 구름</h3>
+                        <p>부서명: 구름 딥다이브 클라우드 네이티브 엔지니어링 1회차</p>
+                        <p>직책: 수강생</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="period">2023.07 ~ 2024.07</span>
+                    <div class="details">
+                        <h3>(주)클로잇</h3>
+                        <p>부서명: 전략기획&클라우드컨설팅사업본부</p>
+                        <p>직책: 마케팅 책임</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="period">2023.01 ~ 2023.07</span>
+                    <div class="details">
+                        <h3>(주)디지포머싸스랩</h3>
+                        <p>부서명: SaaSlab TF</p>
+                        <p>직책: Platform Marketer</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="period">2022.06 ~ 2022.11</span>
+                    <div class="details">
+                        <h3>(주)판도라티비</h3>
+                        <p>부서명: Cobak Team</p>
+                        <p>직책: Business Development Manager</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="period">2019.01 ~ 2022.03</span>
+                    <div class="details">
+                        <h3>(주)여기어때컴퍼니</h3>
+                        <p>부서명: 중소형호텔사업부</p>
+                        <p>직책: 광고상품영업</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="skills">
+                <h2>기술 스택</h2>
+                <div class="skill-badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">Java</span>
+                    <span class="badge">C++</span>
+                    <span class="badge">Google Analytics</span>
+                    <span class="badge">Powerpoint</span>
+                    <span class="badge">Excel</span>
+                    <span class="badge">Meta Business Ads</span>
+                    <span class="badge">Google Ads</span>
+                    <span class="badge">Notion</span>
+                    <span class="badge">Slack</span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 이영범</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Gowun Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px; /* 페이지 최대 너비 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: left;
+}
+
+.intro {
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #ccc;
+    margin: 20px 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start; /* 기간을 위쪽으로 정렬 */
+    margin-bottom: 15px;
+    gap: 20px; /* 기간과 다음 영역 사이에 간격을 추가 */
+}
+
+.period {
+    min-width: 140px; /* 기간과 텍스트 줄맞춤을 위해 넓이를 조정 */
+    color: #555;
+    font-weight: bold;
+}
+
+.details {
+    flex: 1;
+    word-wrap: break-word; /* 줄바꿈 처리 */
+}
+
+.details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.badge {
+    background-color: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 14px;
+    word-wrap: break-word; /* 줄바꿈 처리 */
+}
